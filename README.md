@@ -1,4 +1,4 @@
-# To-Do List App
+# Aplikasi Manajemen Tugas
 
 Aplikasi manajemen tugas berbasis Streamlit dan MySQL.
 
