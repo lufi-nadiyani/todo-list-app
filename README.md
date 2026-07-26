@@ -1,26 +1,47 @@
-# 📋 To-Do List App
+# To-Do List App
 
-Aplikasi To-Do List berbasis **Streamlit** dan **MySQL** untuk mengelola tugas sehari-hari.
+Aplikasi manajemen tugas berbasis Streamlit dan MySQL.
 
-## 🚀 Fitur
 
-- ➕ Tambah tugas dengan deadline dan prioritas
-- ✏️ Edit tugas yang sudah ada
-- 🗑️ Hapus tugas
-- 🔍 Cari dan filter tugas berdasarkan prioritas
-- 📊 Statistik tugas (Total, Selesai, Sedang Dikerjakan, Belum)
+## Tentang Aplikasi
 
-## 🛠️ Teknologi yang Digunakan
+Aplikasi ini digunakan untuk mengelola daftar tugas sehari-hari. Pengguna dapat menambah, melihat, mengubah, dan menghapus tugas. Setiap tugas memiliki deadline dan prioritas untuk membantu menentukan urutan pengerjaan.
 
-- **Streamlit** - Framework UI
-- **MySQL** - Database
-- **Python** - Bahasa pemrograman
 
-## 📦 Instalasi
+## Fitur
 
-### 1. Clone repository
+- Tambah tugas (judul, deadline, prioritas)
+- Lihat daftar tugas
+- Edit tugas
+- Hapus tugas
+- Cari tugas berdasarkan judul
+- Filter tugas berdasarkan prioritas
+- Statistik jumlah tugas
+- Notifikasi deadline hari ini dan besok
 
-```bash
-git clone https://github.com/lufi-nadiyani/todo-list-app.git
-cd todo-list-app
-```
+
+## Teknologi
+
+- Python
+- Streamlit (antarmuka web)
+- MySQL (database)
+- mysql-connector-python (konektor)
+
+
+## Instalasi Library
+
+pip install streamlit mysql-connector-python
+
+
+## Cara Menjalankan
+
+Pilih salah satu:
+
+streamlit run todolist.py
+
+atau
+
+python -m streamlit run todolist.py
+
+Buka browser: http://localhost:8501
+
